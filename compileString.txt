@@ -1,0 +1,3 @@
+monkeyc -o HRAnalyzer.prg -m .\manifest.xml -z ".\resources\drawables\drawables.xml;.\resources\drawables\launcher_icon.png;.\resources\strings\strings.xml" .\source\HRAnalyzerApp.mc .\source\HRAnalyzerView.mc .\source\HRAnalyzerBaseDelegate.mc .\source\HRAnalyzerBaseView.mc .\source\HRAnalyzerDelegate.mc -y .\developer_key.der
+
+monkeydo .\HRAnalyzer.prg fenix3

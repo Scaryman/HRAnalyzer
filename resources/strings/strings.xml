@@ -1,3 +1,7 @@
 <strings>
     <string id="AppName">HR Analyzer</string>
+	
+	<string id="MainMenuAbout">About</string>
+	
+	<string id="Version">1.1.0.2</string>
 </strings>

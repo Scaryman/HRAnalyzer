@@ -1,3 +1,3 @@
-monkeyc -o HRAnalyzer.prg -m .\manifest.xml -z ".\resources\drawables\drawables.xml;.\resources\strings\strings.xml" .\source\HRAnalyzerApp.mc .\source\HRAnalyzerView.mc .\source\HRAnalyzerBaseDelegate.mc .\source\HRAnalyzerBaseView.mc .\source\HRAnalyzerDelegate.mc -y .\developer_key.der
+monkeyc -o HRAnalyzer.prg -m .\manifest.xml -z ".\resources\drawables\drawables.xml;.\resources\strings\strings.xml;.\resources\menus\mainmenu.xml" .\source\HRAnalyzerApp.mc .\source\HRAnalyzerView.mc .\source\HRAnalyzerBaseDelegate.mc .\source\HRAnalyzerBaseView.mc .\source\HRAnalyzerDelegate.mc .\source\HRAnalyzerMainMenuDelegate.mc .\source\HRAnalyzerMainMenuAboutView.mc .\source\HRAnalyzerMainMenuAboutDelegate.mc -y .\developer_key.der
 
 monkeydo .\HRAnalyzer.prg fenix3
